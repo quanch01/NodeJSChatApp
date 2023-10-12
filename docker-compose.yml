@@ -1,0 +1,10 @@
+version: '3.3'
+service: 
+  snake:
+    image: 'quanch/chat_app_docker_repo'
+    enviornment:
+    - 'port: 3000'
+  ports:
+    - '80:3000'
+  volumes:
+    - ./:index 
