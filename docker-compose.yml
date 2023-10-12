@@ -7,4 +7,4 @@ service:
   ports:
     - '80:3000'
   volumes:
-    - ./:index 
+    - ./:index
