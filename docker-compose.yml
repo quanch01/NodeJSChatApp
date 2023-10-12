@@ -2,9 +2,9 @@ version: '3.3'
 services: 
   chat:
     image: 'quanch/chat_app_docker_repo:latest'
-    enviornment:
+    environment:
       - "PORT:3000"
     ports:
       - "80:3000"
     volumes:
-      - ./:app
+      - ./:/app
