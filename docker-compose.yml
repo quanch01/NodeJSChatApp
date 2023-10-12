@@ -1,6 +1,6 @@
 version: '3.3'
-service: 
-  snake:
+services: 
+  chat:
     image: 'quanch/chat_app_docker_repo:latest'
     enviornment:
     - 'port: 3000'
