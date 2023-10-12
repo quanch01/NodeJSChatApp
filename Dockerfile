@@ -1,4 +1,4 @@
 FROM mhart/alpine-node
-COPY . .
+COPY package.json .
 CMD node /index.js
 EXPOSE 3000
